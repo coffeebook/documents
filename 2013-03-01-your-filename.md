@@ -48,7 +48,7 @@ Use-case:
 
 > A company deals in auctions and facilitates this over the internet. On their own web site they collect offers from different external sellers. These offers need to be sent to potential bidders who connect to the web site using their browser. 
 
-![Several available solutions](http://my.picresize.com/G8HUSU7DJJ)
+![Several available solutions](http://my.picresize.com/vault2/G8HUSU7DJJ.jpg)
 
 ### HTTP streaming 
 
@@ -134,7 +134,7 @@ The Comet approach differs from the original model of the web, in which a browse
 
 HTTP servers cannot send data to their clients whenever they want, **there is no way to propagate an update to a browser**. This limits prospect of web-based collaborative applications. Then came the not-so-great solution and that was long lived HTTP connection. 
 
-![HTTP servers cannot send data to their clients whenever they want](http://my.picresize.com/D9U29724DR)
+![HTTP servers cannot send data to their clients whenever they want](http://my.picresize.com/vault2/D9U29724DR.jpg)
 
 ## Comparison data transfer methods 
 
@@ -150,9 +150,9 @@ Currently Comet is a popular technique for browser-based chat applications since
 
 Ajax and Comet differ in the expected length of the request. Ajax uses a quick request-response to update or get new information from a server, while Comet typically opens a longer connection to get information as it is available from the server. 
 
-### To summarize
+### Disadvantages in AJAX
 
-The disadvantages in AJAX approach are: 
+The disadvantages in AJAX approach are best summed up as:
 
 * Unnecessary calls are made to the server, even though there may be no update. 
 * With number of clients increasing, server may get overloaded. 
@@ -163,3 +163,26 @@ The disadvantages in AJAX approach are:
 Whereas comet technique pushes the data to the clients when the server side data changes, avoiding unnecessary round-trips to clients. This results in increase in performance of network. 
 
 ![COMET based update](http://www.botskool.com/sites/default/files/users/DeAviator/CometPicture0.jpg)"
+
+## Implementation details
+
+Let us go take a closer look at the mechanics of these 'messages'.
+
+The following pictures will illustrate this perfectly:
+
+![Closer look](http://my.picresize.com/vault2/FIYU7CR7U1.jpg)
+
+![Closer look II](http://image.slidesharecdn.com/comet-websockets-html5-110507100307-phpapp01/95/slide-5-638.jpg?1357209909)
+
+
+
+
+
+
+
+
+
+
+
+
+
