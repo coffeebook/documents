@@ -1,8 +1,7 @@
 
 # The book
 
-*working title*
-
+*A working title*
 
 ## Introduction
 
@@ -45,11 +44,31 @@ world. Source: [grayling]
 
     word = "יְהִי אוֹר"
 
-Ok enough with the bible references. The word is actually
+Ok enough with the bible references. The word is actually lost and must be
+found.
 
-    word = "coffee"
+    word = "?"
 
-And now that we know it, we can execute ourselves.
+But for now, I'll give you the word of "Node.js" and you will know enough to
+make this work. And now that we know it, we can execute ourselves.
+
+> Mum, why do we live? This question takes the mother by surprise. In the middle
+of the rumbling streetcar. Loud and clear. And all heard this question. All the
+fellow passengers around are curiously waiting for mum’s answer now. Just as the
+child. And the tension is almost tangible in the air. Mum is thinking: What in
+the world shall I answer now? In passing like here. Is there an answer anyway?
+Or rather distract, change to another subject, we can talk about that later, my
+love … [02]
+
+<small>Note: I'm already hating references. I have to do it a lot you see. This
+copy paste and remembering the number of footnotes BLOWS BLOWS BLOWS and we need
+to fix it bad but John is nowhere to be found. Surely this can't work look below.
+[What do we do?](http://www.codinghorror.com/blog/2012/10/the-future-of-markdown.html)
+</small>
+
+    {life} = require 'child_process'
+
+
 
 > A [word] is the smallest element that may be uttered in isolation with semantic
 or pragmatic content (with literal or practical meaning). This contrasts with a
@@ -69,6 +88,10 @@ Letters belong to an alphabet. Latin is one such alphabet.
               "N","O","P","Q","R","S","T","U","V","W","X","Y","Z" ]
 
 ![ROT13 replaces each letter by its partner 13 characters further along the alphabet. For example, HELLO becomes URYYB (or, reversing, URYYB becomes HELLO again).](http://upload.wikimedia.org/wikipedia/commons/thumb/3/33/ROT13_table_with_example.svg/320px-ROT13_table_with_example.svg.png)
+
+<small class="comment">One of the problems with images and traditional Markdown,
+is that they do not support any footnotes. Just look at this URL. There I am
+trying my best to push everything in 80 columns and this just *sucks* </small>
 
 This is also seen as ROT13, or a Matrix. You can use it to cypher (not so good)
 hidden messages.
@@ -203,7 +226,7 @@ Note: I would credit the author if I could recall where I found this.
 
 My name is the key to the same encryption used to hide me:
 
-      thewordis = "RHbliQs/l8ivkS9Xa1UGsA=="
+      word = "RHbliQs/l8ivkS9Xa1UGsA=="
 
 
 [01]: http://en.wikipedia.org/wiki/Know_thyself#cite_note-20
