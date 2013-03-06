@@ -19,13 +19,15 @@ You can add statements inside the class definition which helps establish private
 scope (due to closures) instance is defined as null to force correct scope
 Source: <http://coffeescriptcookbook.com/chapters/design_patterns/singleton>
 
+```coffeescript
+
         instance = null
 
         constructor = () ->
 
-
-
 ```
+
+
 
 ## Chapter I
 
