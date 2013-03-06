@@ -42,9 +42,10 @@ print:
 This is NOT! CoffeeScript. It's still litate CS but GitHub highlight will think
 it is. My Sublime won't tho nor will the compiler.
 
-# These are not comments! This is h1!
+# These are not comments in sublime nor GFM but because its inside a code fence
+# Still won't generate a h1. Sublime highlights it as green and below its red
 
-    # These are comments!
+    # These are comments! They are red
 
     # label:      Custom logger and color levels in winston
     # class:      example console templates elegant
@@ -61,14 +62,18 @@ it is. My Sublime won't tho nor will the compiler.
 It is here where I experimented somewhat with a compatible notation for GFM and
 Markdown and literate CoffeeScript and, although not bound by convention, will
 try to honor these. Another option is to replace the ASCII text it is now,
-by triggering anything after `\```coffeescript` and make it CS. But since we
+by triggering anything after ```coffeescript` and make it CS. But since we
 would be able to moderate ourself (copy the file is probably best) we can play
 around as much as we like.
 
-I could have also used a literate method to _|declare|_ a _|new macro|_ in any
-fashion inline, we do need have a nice way of compatible parsing. This could be
-the coffee compiler to work on special Markdown tags which would in fact be
-commands/macros. A convential way of breaking out of comments
+I could have also used a literate method to declare a ___new macro___ in any
+fashion inline _|using keywords|_ we could choose between a few _#{for x in y:}_
+tricks (note use of the `:`), and do need to loop like parse _#{console.log x}_
+perhaps as [eco] [] does.
+
+Need have a nice way of compatible parsing. This could be the coffee compiler to
+work on special Markdown tags which would in fact be commands/macros. A
+convential way of breaking out of comments
 
 
     config =
