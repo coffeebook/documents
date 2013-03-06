@@ -1,4 +1,10 @@
+
 # The book
+
+*working title*
+
+
+## Introduction
 
 This would serve as a comprehensive piece of literature on everything I know
 about CoffeeScript, Markdown, Node.js and it's kick-ass libraries. It is far
@@ -35,7 +41,7 @@ It is up to YOU to do something with it.
 
 In the garden stands a tree. In springtime it bears flowers; in the autumn,
 fruit. Its fruit is knowledge, teaching the good gardener how to understand the
-world.[[grayling]]
+world. Source: [grayling]
 
     word = "יְהִי אוֹר"
 
@@ -62,7 +68,7 @@ Letters belong to an alphabet. Latin is one such alphabet.
     latin = [ "A","B","C","D","E","F","G","H","I","J","K","L","M",
               "N","O","P","Q","R","S","T","U","V","W","X","Y","Z" ]
 
-![ROT13 replaces each letter by its partner 13 characters further along the alphabet. For example, HELLO becomes URYYB (or, reversing, URYYB becomes HELLO again).][http://upload.wikimedia.org/wikipedia/commons/thumb/3/33/ROT13_table_with_example.svg/320px-ROT13_table_with_example.svg.png]
+![ROT13 replaces each letter by its partner 13 characters further along the alphabet. For example, HELLO becomes URYYB (or, reversing, URYYB becomes HELLO again).](http://upload.wikimedia.org/wikipedia/commons/thumb/3/33/ROT13_table_with_example.svg/320px-ROT13_table_with_example.svg.png)
 
 This is also seen as ROT13, or a Matrix. You can use it to cypher (not so good)
 hidden messages.
