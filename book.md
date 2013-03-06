@@ -6,8 +6,11 @@
 ## Introduction
 
 This would serve as a comprehensive piece of literature on everything I know
-about CoffeeScript, Markdown, Node.js and it's kick-ass libraries. It is far
-from finished, please be patient.
+about CoffeeScript, Markdown but also Node.js and it's kick-ass libraries. We
+will use node because it may give us in depth exploration of complicated
+subjects which would take a tenfold of books to fully explore. You shall see.
+
+It is far from finished, please be patient.
 
 I hope this will end up a more coherent, community driven, writing and coding
 experiment. This book shall be your initiation. It will be a test of your skills
@@ -17,6 +20,8 @@ gen web technology.
 It shall mention problems I encounter or for which I am not smart enough. I rest
 in the knowledge that others will be and may correct my honest mistakes in a
 manner which suits this problem best.
+
+## Genesis
 
 There are two parts of the ancient temple of Luxor; the outer temple where the
 beginning initiates are allowed to come, and the inner temple where one can
@@ -29,18 +34,21 @@ One of the proverbs in the Outer Temple is
 
     self = exports ? this
 
-We shall explore our knowledge of `self` at a later stage. Just know we may find
-many wisdom in ancient scriptures.
+We shall explore our knowledge of `self` at a later stage. For now just know we
+may find many wisdom in ancient scriptures. And many ancient scriptures are
+exposed to those who know how to communicate.
 
     passage = "http://www.esvapi.org/v2/rest/passageQuery?key=TEST&passage=Corinthians%203%3A18"
 
-It is up to YOU to do something with it.
+It is now up to YOU to do something with it.
 
 ## Genesis
 
 In the garden stands a tree. In springtime it bears flowers; in the autumn,
 fruit. Its fruit is knowledge, teaching the good gardener how to understand the
-world. Source: [grayling]
+world.
+
+<small>By: [grayling]</small>
 
     word = "יְהִי אוֹר"
 
@@ -49,22 +57,75 @@ found.
 
     word = "?"
 
-But for now, I'll give you the word of "Node.js" and you will know enough to
-make this work. And now that we know it, we can execute ourselves.
-
-> Mum, why do we live? This question takes the mother by surprise. In the middle
-of the rumbling streetcar. Loud and clear. And all heard this question. All the
-fellow passengers around are curiously waiting for mum’s answer now. Just as the
-child. And the tension is almost tangible in the air. Mum is thinking: What in
-the world shall I answer now? In passing like here. Is there an answer anyway?
-Or rather distract, change to another subject, we can talk about that later, my
-love … [02]
+But for now, I'll give you the word of "node" and you will know enough to make
+this work. And now that we know it, we can execute ourselves.
 
 <small>Note: I'm already hating references. I have to do it a lot you see. This
 copy paste and remembering the number of footnotes BLOWS BLOWS BLOWS and we need
 to fix it bad but John is nowhere to be found. Surely this can't work look below.
 [What do we do?](http://www.codinghorror.com/blog/2012/10/the-future-of-markdown.html)
 </small>
+
+## When children ask
+
+Extract taken from: [lectoriumrosicrucianum.org]
+
+Mum, why do we live? This question takes the mother by surprise. In the middle
+of the rumbling streetcar. Loud and clear. And all heard this question. All the
+fellow passengers around are curiously waiting for mum’s answer now. Just as the
+child. And the tension is almost tangible in the air. Mum is thinking: What in
+the world shall I answer now? In passing like here. Is there an answer anyway?
+Or rather distract, change to another subject, we can talk about that later, my
+love …
+
+Children ask. They have many questions. Once they can speak and express their
+thoughts, they ask parents, grandparents, teachers, yes, even the person sitting
+next in the streetcar. They almost bombard one with questions. They want the
+adults to explain them the world. Show me! Tell me! How, why? Why not?
+
+> But what about the answers?
+
+### Looking for answers
+
+For these very deep and far-reaching questions, adults do not immediately have
+an answer. If they have one at all. Sometimes they react helplessly, sometimes
+hostile. Don’t ask so much, don’t ask so stupid. Sometimes they wonder: What can
+I say? How shall I word it? Each word is suddenly very important. Because there
+are important questions. Life issues. Urging questions that life itself asks and
+that people ask life – because they live.
+
+“We live to grow”, explains the mother in the streetcar. “Like a small
+caterpillar that will become a beautiful butterfly. Or, like a flower that
+stretches to the sunlight, so that it can flourish.” There are many pictures to
+help explain. When searching for an answer, one may come back to to the
+familiar, personal experiences, knowledge, religions, the Bible or other sacred
+writings, nature and science, books and stories.
+
+Or one can look for the answer in himself.
+
+From heart to heart
+
+The children’s questions can remind you of something, touch something that is
+very deeply hidden in the heart, because it is a question from heart to heart,
+requiring an answer from heart to heart. There is much that is greater than man.
+He, who has experienced that himself, can tell children about it. Anyone who has
+searched for answers in himself, can encourage the child to find its path in its
+own inner being and follow it.
+
+On this path, all the answers of life exist and can be discovered. Even the
+answer to the question: Why do we live? A man who has made the journey into his
+own inner being can tell the asking child about it like this: “Yes, God exits.
+Every person on Earth shall be one of God’s master-builders – one who helps
+building on the great creation of God himself.”
+
+Everyone has a life mission
+
+Such a person has learned that everyone has a special mission, an individual
+task in his life. Life is about finding out this task and work on it. This task
+has not only to do with oneself, but always also with the people you know and
+you will get to know yet.
+
+“If you want to find your life’s task, ask what you can give these people.” says the mother. This is the most important information that can be transmitted to children looking for answers. He, who traces this idea will find out that people need him in many ways. “You are indispensable for your fellow men”, is a knoledge that can even mature in young people.
 
     {life} = require 'child_process'
 
@@ -234,3 +295,4 @@ My name is the key to the same encryption used to hide me:
 [grayling]: http://www.amazon.com/Good-Book-Humanist-Bible/dp/0802717373
 [manifesto]: http://www.phrack.org/issues.html?issue=7&id=3&mode=txt
 [word]: http://en.wikipedia.org/wiki/Word
+[lectoriumrosicrucianum]: <http://www.lectoriumrosicrucianum.org/artikel/when-children-ask-about-the-meaning-of-life>
