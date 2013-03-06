@@ -13,7 +13,9 @@ montes, nascetur ridiculus mus.
 
     class Outline extends Book
 
-``` You can add statements inside the class definition which helps establish private
+```
+
+You can add statements inside the class definition which helps establish private
 scope (due to closures) instance is defined as null to force correct scope
 Source: <http://coffeescriptcookbook.com/chapters/design_patterns/singleton>
 
