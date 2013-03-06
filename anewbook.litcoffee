@@ -128,20 +128,74 @@ bad temper, lazy and rude. Not like myself
 
 Let me introduce:
 
-    myname = -> """
+    whoami = -> """
+          G5qn80JrR6eXqcMfcqDHPL8PI5qWjcwa5X4VwoT1haTUI/ISNo4hzsDJDWJP92ogbDcO+C
+          sNsCOiqjNpS8aNA5CW/pBwZWGvnsTMlXqdGThcrVRrzHYfhkwKMq0lrXeHisM+uhY1AypC
+          fAvzeR8mgyJz60u1hlR/o0I2+MlOctQ7QkgvTsIUJ1EaU168PgeYlfUqqXUB36CpTRlpmV
+          QSRHxKkYNBZ8zZF8V6pkk6yUuipyQFYJnUPrU5tzQy94jOr2G8CwYxJAMJkYqg8quzpby7
+          MeBJahExTosx0+xr/DD7V9gZ/baI9cbnXpRp6VlQ/oyISWaL5Xnhp5YmmrU5njM5KMlgMg
+          lZZ+3wk8FKx3WqmTfzLJbQxw5x65Jf47JAn6dkRNpOJYwPxoXJ5QiG3NvAKGuaevzZAW2m
+          f1sJbQy6ZrC89/2LRGJe8Ee9KUiuh+0USsdO8qEtNfvgAPnC5sjTPYutRgEW
+    """
 
-          8XVmIX0Frl41wHw3iQtbb3gMyzGiSo0doXftajgGlVMVDuMhpntTErdwNnExuI9Y+DJwnt
-          fheoPQ6t9CydE6tOYj1HfOUWqLttk2Aon3hpEaqINXdzAVKgg2hzrsSg1QXPxi+TGF4f+o
-          Zo9s8zxTpY56AZNlIyUdvlgKC13P+wmVsJR/77+4jV7Z9RaeqZTWW8DBD7Y8JuMIn6t7G/
-          P8wcjK9plKsZeL45UQ4lI4+5s5V3Q+zJv7HSAzbS1FPQOrrnAI29r+7EEVw8LFD8rQ+ofX
-          tEPSNHCQKer0AqohNxYXEooFUeLEz9Dfb2BRLIjiiLrPEsC3fBe2T565LlnvO9BlTlBquT
-          36QeVbJm4gHGSsp823rkqZwuG+NKvJRQamFRIHqsoZ2rS1J+nml2yw4voWNQ4CDSYglEoc
-          43EGwE6GHGzaWRnJS8XTVQ9mWc/dHbZ6FS/CvsYRs4DHPsjudo6JR0jopf3PDwRUYtp6Tb
-          w=
+Now decode this riddle, we need 5 digits:
 
-      """
+1. The product of the first two digits is 24.
+1. The fourth digit is half of the second digit.
+1. The sum of the last two digits is the same as the sum of the first and third digits.
+1. The sum of all the digits is 26.
 
-    bender.introduce()
+Not all the digits are unique.
+
+    check = (pass) ->
+      if (pass.a + pass.b + pass.c + pass.d + pass.e) != 26
+        return false
+      else if (pass.a + pass.c) != (pass.d + pass.e)
+        return false
+      else
+        for key1, value1 of pass
+          for key2, value2 of pass
+            if key1 != key2 && value1 == value2
+              return true
+
+      return false;
+
+    pwd =
+      a: 0
+      b: 0
+      c: 0
+      d: 0
+      e: 0
+
+    seeds = []
+
+    for i in [1..24]
+      if 24 % i == 0
+        seeds.push [i, 24/i]
+
+    for i in seeds
+      pwd.a = i[0]
+      pwd.b = i[1]
+      pwd.d = (i[1]/2)
+
+      remaining = (26 - (pwd.a + pwd.b + pwd.d))
+      options = []
+
+      for i in [0..remaining]
+        options.push [i, remaining-i]
+
+      for i in options
+        pwd.c = i[0]
+        pwd.e = i[1]
+
+        if check pwd
+          console.log pwd
+
+
+My name is the key to the same encryption used to hide me:
+
+      thewordis = "RHbliQs/l8ivkS9Xa1UGsA=="
+
 
 
 [[01]]: http://en.wikipedia.org/wiki/Know_thyself#cite_note-20
