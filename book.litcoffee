@@ -10,7 +10,18 @@ about CoffeeScript, Markdown but also Node.js and it's kick-ass libraries. We
 will use node because it may give us in depth exploration of complicated
 subjects which would take a tenfold of books to fully explore. You shall see.
 
-It is far from finished, please be patient.
+It is far from finished, please be patient. Many pieces will be cut and
+moderated to make a more suitable build-up with some tasks and goals perhaps
+included.
+
+It will have relations to AI and the notions we may come across as programmers.
+
+But please respect that, although eager to learn, not everyone has the same
+level of understanding. Use references wisely and translate any jargon to the
+level of a beginning programmer. Explain things that others have not explained
+yet. You will get the idea as you continue to read, that I tried to find some
+'life' abstractions of these notions and paradigms you may find in life while
+hacking.
 
 I hope this will end up a more coherent, community driven, writing and coding
 experiment. This book shall be your initiation. It will be a test of your skills
@@ -38,7 +49,7 @@ We shall explore our knowledge of `self` at a later stage. For now just know we
 may find many wisdom in ancient scriptures. And many ancient scriptures are
 exposed to those who know how to communicate.
 
-    passage = "http://www.esvapi.org/v2/rest/passageQuery?key=TEST&passage=Corinthians%203%3A18"
+
 
 It is now up to YOU to do something with it.
 
@@ -46,9 +57,7 @@ It is now up to YOU to do something with it.
 
 In the garden stands a tree. In springtime it bears flowers; in the autumn,
 fruit. Its fruit is knowledge, teaching the good gardener how to understand the
-world.
-
-<small>By: [grayling]</small>
+world. Source: [grayling]
 
     word = "יְהִי אוֹר"
 
@@ -83,7 +92,7 @@ thoughts, they ask parents, grandparents, teachers, yes, even the person sitting
 next in the streetcar. They almost bombard one with questions. They want the
 adults to explain them the world. Show me! Tell me! How, why? Why not?
 
-> But what about the answers?
+But what about the answers?
 
 ### Looking for answers
 
@@ -101,9 +110,11 @@ help explain. When searching for an answer, one may come back to to the
 familiar, personal experiences, knowledge, religions, the Bible or other sacred
 writings, nature and science, books and stories.
 
+    passage = "http://bit.ly/XR30gA"
+
 Or one can look for the answer in himself.
 
-From heart to heart
+### From heart to heart
 
 The children’s questions can remind you of something, touch something that is
 very deeply hidden in the heart, because it is a question from heart to heart,
@@ -112,23 +123,63 @@ He, who has experienced that himself, can tell children about it. Anyone who has
 searched for answers in himself, can encourage the child to find its path in its
 own inner being and follow it.
 
-On this path, all the answers of life exist and can be discovered. Even the
-answer to the question: Why do we live? A man who has made the journey into his
-own inner being can tell the asking child about it like this: “Yes, God exits.
-Every person on Earth shall be one of God’s master-builders – one who helps
-building on the great creation of God himself.”
+    mission = "You need to follow it."
 
-Everyone has a life mission
+On this path, all the answers of life exist and can be discovered. Even the
+answer to the question: Why do we live? A man or woman who has made the journey
+into his own inner being can tell the asking child about it like this: “Yes, God
+exits. Every person on Earth shall be one of God’s master-builders – one who
+helps building on the great creation of God himself.”
+
+    # TODO: check self if global is browser or not (window)
+    # TODO: check all requires and download if we don't have them
+    {life} = require 'child_process'
+
+<small class="note">Note: here we move away from the isomorphic nature of this
+being and into the server domain. It needs to be recognized by looking at "self"
+and actually checking first if we have the module (use npm, then try..catch it
+and then, if not found, import the libraries).</small>
+
+### Everyone has a life mission
 
 Such a person has learned that everyone has a special mission, an individual
 task in his life. Life is about finding out this task and work on it. This task
 has not only to do with oneself, but always also with the people you know and
 you will get to know yet.
 
-“If you want to find your life’s task, ask what you can give these people.” says the mother. This is the most important information that can be transmitted to children looking for answers. He, who traces this idea will find out that people need him in many ways. “You are indispensable for your fellow men”, is a knoledge that can even mature in young people.
+<small class="issue">One thing I don't think Markdown implemented (but others
+have), is to replace these more readable quotes. I could be wrong though. But it
+seems to me, a language devised around readability, would atleast replace double
+and single ones with the `“` ones. Like used below.</small>
 
-    {life} = require 'child_process'
+“If you want to find your life’s task, ask what you can give these people.” says
+the mother. This is the most important information that can be transmitted to
+children looking for answers. He, who traces this idea will find out that people
+need him in many ways. “You are indispensable for your fellow men”, is a
+knowledge that can even mature in young people.
 
+## The Art
+
+Asking questions is one of the most powerful ways to open up a text and begin a
+discussion. It’s not a new technique, of course, but it’s one a philosophy
+professor in college taught me years ago. The professor asks questions about
+everything. He hardly stops to answer the questions he raises. It seems he’s
+more interested in asking questions than finding answers to them. Coming up with
+the interesting questions seems to be his point.
+
+I’ll give you an example. Take a familiar story — Snow White. If the philosophy
+professor were reading Snow White, his questions might go like this:
+
+* Why did the Queen want to be fairest of them all?
+* What does it mean to be fair?
+* If the wicked queen was a sorcerer, could she not make herself the fairest?
+* Did Snow White have any magic powers of her own?
+* Why did the author choose coal-mining dwarfs as her rescuers?
+* Who is truly being rescued?
+* What’s the relationship between the dwarfs and the queen?
+
+And so on. I admit my hypothetical questions aren’t very good ones. For an
+actual sample, see his post analyzing [Abraham].
 
 
 > A [word] is the smallest element that may be uttered in isolation with semantic
@@ -150,11 +201,11 @@ Letters belong to an alphabet. Latin is one such alphabet.
 
 ![ROT13 replaces each letter by its partner 13 characters further along the alphabet. For example, HELLO becomes URYYB (or, reversing, URYYB becomes HELLO again).](http://upload.wikimedia.org/wikipedia/commons/thumb/3/33/ROT13_table_with_example.svg/320px-ROT13_table_with_example.svg.png)
 
-<small class="comment">One of the problems with images and traditional Markdown,
+<small class="issue">One of the problems with images and traditional Markdown,
 is that they do not support any footnotes. Just look at this URL. There I am
 trying my best to push everything in 80 columns and this just *sucks* </small>
 
-This is also seen as ROT13, or a Matrix. You can use it to cypher (not so good)
+This is also seen as [ROT13], or a Matrix. You can use it to cypher (not so good)
 hidden messages.
 
 Many programmers must have been fascinated by the creative power of simple
@@ -296,3 +347,5 @@ My name is the key to the same encryption used to hide me:
 [manifesto]: http://www.phrack.org/issues.html?issue=7&id=3&mode=txt
 [word]: http://en.wikipedia.org/wiki/Word
 [lectoriumrosicrucianum]: <http://www.lectoriumrosicrucianum.org/artikel/when-children-ask-about-the-meaning-of-life>
+[Abraham]: http://feastuponthewordblog.org/2010/02/07/ot-lesson-7-study-notes-abraham-11-4-21-11-genesis-121-8-171-9/
+[rot13]: http://en.wikipedia.org/wiki/Rot13
