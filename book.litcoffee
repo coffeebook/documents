@@ -20,7 +20,7 @@ insights.
 
 One of the proverbs in the Outer Temple is
 
-> "Man know thyself." [[01]]
+> "Man know thyself." [01]
 
     self = exports ? this
 
@@ -111,7 +111,7 @@ book which references another book.
 > acts as a means by which to connect to or link to, another object. The first
 > object in this relation is said to refer to the second object. The second
 > object – the one to which the first object refers – is called the referent of
-> the first object.[[03]]
+> the first object.[03]
 
 Let us
 
@@ -200,9 +200,8 @@ My name is the key to the same encryption used to hide me:
       thewordis = "RHbliQs/l8ivkS9Xa1UGsA=="
 
 
-
-[[01]]: http://en.wikipedia.org/wiki/Know_thyself#cite_note-20
-[[03]]: http://en.wikipedia.org/wiki/Reference
+[01]: http://en.wikipedia.org/wiki/Know_thyself#cite_note-20
+[03]: http://en.wikipedia.org/wiki/Reference
 [grayling]: http://www.amazon.com/Good-Book-Humanist-Bible/dp/0802717373
 [manifesto]: http://www.phrack.org/issues.html?issue=7&id=3&mode=txt
 [word]: http://en.wikipedia.org/wiki/Word
