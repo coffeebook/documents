@@ -147,18 +147,21 @@ Now decode this riddle, we need 5 digits:
 
 Not all the digits are unique.
 
+Note: I would credit the author if I could recall where I found this.
+
+
     check = (pass) ->
-      if (pass.a + pass.b + pass.c + pass.d + pass.e) != 26
+      if (pass.a + pass.b + pass.c + pass.d + pass.e) isnt 26
         return false
-      else if (pass.a + pass.c) != (pass.d + pass.e)
+      else if (pass.a + pass.c) isnt (pass.d + pass.e)
         return false
       else
         for key1, value1 of pass
           for key2, value2 of pass
-            if key1 != key2 && value1 == value2
+            if key1 isnt key2 and value1 is value2
               return true
 
-      return false;
+      return false
 
     pwd =
       a: 0
