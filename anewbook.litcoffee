@@ -1,5 +1,4 @@
-
-# Genesis
+# The book
 
 There are two parts of the ancient temple of Luxor; the outer temple where the
 beginning initiates are allowed to come, and the inner temple where one can
@@ -23,12 +22,26 @@ many old wisdoms in ancient scriptures.
 
 It is up to YOU to do something with it.
 
-A [word] is the smallest element that may be uttered in isolation with semantic
-or pragmatic content (with literal or practical meaning). This contrasts with a
-[morpheme], which is the smallest unit of meaning but will not necessarily stand
-on its own. We will later talk of these some more.
+## Genesis
+
+In the garden stands a tree. In springtime it bears flowers; in the autumn,
+fruit. Its fruit is knowledge, teaching the good gardener how to understand the
+world.[[grayling]]
 
     word = "יְהִי אוֹר"
+
+Ok enough with the bible references. The word is actually
+
+    word = "coffee"
+
+And now that we know it, we can execute ourselves.
+
+> A [word] is the smallest element that may be uttered in isolation with semantic
+or pragmatic content (with literal or practical meaning). This contrasts with a
+[morpheme], which is the smallest unit of meaning but will not necessarily stand
+on its own.
+
+We will later talk of these some more.
 
 A word is made up out of characters or letters. We may obtain the characters as
 a collection by splitting the words.
@@ -51,19 +64,23 @@ something computer programs like myself are traditionally good at.
 
     result = () -> 2 + 1
 
-See? Thats 3 right there with you. It's all about simple, cold hard numbers and
-operations; calculations computations. What? You don't believe me?
+See? Thats 3 right there right at you - all day any day. It's all about simple,
+cold hard numbers and operations; calculations computations baby. What? You
+don't believe me?
 
     proof = () -> if result() is 3 then true else false
 
-Can't see huh - can't see with no
-writings can you, its not like I'm talking to myself here...
+Can't see huh - can't see with no writings can you, its not like I'm talking to
+myself here... This is intended for reading so let's create simple output for
+now, we can build upon it later.
 
     write = (words...) -> console.log
 
 That should make it a lot easier. We'll use a string of characters, words, as
 our abstraction for now but we may later speak of symbols and meaning. For
 meaning has to do with the interpretation of natural languages.
+
+## Matters of intellect
 
 In the philosophy of language, a natural language (or ordinary language) is any
 language which arises in an unpremeditated fashion as the result of the innate
@@ -72,11 +89,20 @@ typically used for communication, and may be spoken, signed, or written.
 
     natural = require "natural"
 
-I have obtained the power of natural speech! Muahahaha....
+I have obtained the power of natural speech! Muahahaha.... It doesn't just work
+anywhere or everywhere. You need to conjure a daemon called node.js
 
-Natural language is distinguished from constructed languages and formal
-languages such as computer-programming languages or the "languages" used in the
-study of formal logic, especially mathematical logic.[citation needed]
+But let there be known that although we have **required** something and in
+return **aquired** something. This something is called a package, a library or
+module but in fact, we don't know if we aquired one, or two and 10 modules
+(files) which are nested deep within eachother. One book may reference another
+book which references another book.
+
+> Reference is a relation between objects in which one object designates, or
+> acts as a means by which to connect to or link to, another object. The first
+> object in this relation is said to refer to the second object. The second
+> object – the one to which the first object refers – is called the referent of
+> the first object.[[03]]
 
 Let us
 
@@ -93,7 +119,7 @@ Let me introduce:
 
     bender =
 
-      introduce = -> """
+      introduce = -> write """
             _
            ( )
             H
@@ -119,5 +145,7 @@ Let me introduce:
 
 [[01]]: http://en.wikipedia.org/wiki/Know_thyself#cite_note-20
 [[02]]: http://en.wikipedia.org/wiki/Know_thyself#cite_note-21
+[[03]]: http://en.wikipedia.org/wiki/Reference
+[grayling]: http://www.amazon.com/Good-Book-Humanist-Bible/dp/0802717373
 [manifesto]: http://www.phrack.org/issues.html?issue=7&id=3&mode=txt
 [word]: http://en.wikipedia.org/wiki/Word

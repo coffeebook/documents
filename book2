@@ -28,9 +28,6 @@ class Book
       instance = self
 
 
-
-
-
     read = () -> console.log "Reading..."
 
 But not everything you read is actually seen:
@@ -69,13 +66,7 @@ sources. There are various ways of doing this, and here we give you one system.
 
     say.speak "Alex", "No it was actually John who said that."
 
-
 [01]: http://wiki.answers.com/Q/What_is_the_importance_of_speech
-
-
-
-
-
 
 
 The idea of hiding or making private the inner workings is preference.
