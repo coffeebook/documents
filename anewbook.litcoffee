@@ -7,16 +7,12 @@ insights.
 
 One of the proverbs in the Outer Temple is
 
-> "The body is the house of God." That is why it is said, "Man know thyself." [[01]]
-
-In the Inner Temple, one of the many proverbs is
-
-> "Man, know thyself ... and thou shalt know the gods." [[02]]
+> "Man know thyself." [[01]]
 
     self = exports ? this
 
 We shall explore our knowledge of `self` at a later stage. Just know we may find
-many old wisdoms in ancient scriptures.
+many wisdom in ancient scriptures.
 
     passage = "http://www.esvapi.org/v2/rest/passageQuery?key=TEST&passage=Corinthians%203%3A18"
 
@@ -144,7 +140,6 @@ Let me introduce:
 
 
 [[01]]: http://en.wikipedia.org/wiki/Know_thyself#cite_note-20
-[[02]]: http://en.wikipedia.org/wiki/Know_thyself#cite_note-21
 [[03]]: http://en.wikipedia.org/wiki/Reference
 [grayling]: http://www.amazon.com/Good-Book-Humanist-Bible/dp/0802717373
 [manifesto]: http://www.phrack.org/issues.html?issue=7&id=3&mode=txt
