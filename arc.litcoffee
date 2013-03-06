@@ -57,6 +57,21 @@ console.log("Adding %d to 10 gives us %d", misc.x, misc.addX(10));
 
 ```coffeescript
 
+
+    class Outline
+
+        constructor = (@id, @filename, @metadata) ->
+            console.log "Created a new outline"
+
+
+
+
+
+```
+
+
+```coffeescript
+
     # path/to/file/file01
     x = "";
 
