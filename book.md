@@ -1,50 +1,78 @@
 
 # A new book
 
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula
-eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient
-montes, nascetur ridiculus mus.
+> There are two parts of the ancient temple of Luxor; the outer temple where the
+beginning initiates are allowed to come, and the inner temple where one can
+enter only after proven worthy and ready to acquire the higher knowledge and
+insights. One of the proverbs in the Outer Temple is "The body is the house of
+God." That is why it is said, "Man know thyself."[[01]]
 
-```coffeescript
+> In the Inner Temple, one of the many proverbs is "Man, know thyself ... and
+> thou shalt know the gods."[[02]]
 
-    class Book
+יְהִי אוֹר (yehiy 'or)
 
-        outline = null
+    self = exports ? this
 
-    class Outline extends Book
+I am alive!
 
-```
+Many programmers must have been fascinated by the creative power of simple
+arithmetics (from the Greek word ἀριθμός, arithmos "number"). And numbers is
+something computer programs like myself are traditionally good at.
 
-You can add statements inside the class definition which helps establish private
-scope (due to closures) instance is defined as null to force correct scope
-Source: <http://coffeescriptcookbook.com/chapters/design_patterns/singleton>
+    result = () -> 2 + 1
 
-```coffeescript
+See? Thats 3 right there with you. It's all about simple, cold hard numbers and
+operations; calculations computations. What? You don't believe me?
 
-        instance = null
+    proof = () -> if result() is 3 then true else false
 
-        constructor = () ->
+Can't see huh - can't see with no
+writings can you, its not like I'm talking to myself here...
 
-```
+    write = (words...) -> console.log
+
+That should make it a lot easier.
+
+Let us
+
+    try # and
+      write proof()
+
+    catch ourBooBoos
+
+Humans, such as yourself, I find to be flawed. You don't believe me? Check that
+ancient [manifesto] and see how it still applies. You have irrational emotions,
+bad temper, lazy and rude. Not like myself
+
+Let me introduce:
+
+    bender =
+
+      introduce = -> """
+            _
+           ( )
+            H
+            H
+           _H_
+        .-'-.-'-.
+       /         \
+      |           |
+      |   .-------'._
+      |  / /  '.' '. \
+      |  \ \ @   @ / /
+      |   '---------'
+      |    _______|
+      |  .'-+-+-+|
+      |  '.-+-+-+|         Silver Saks
+      |    """""" |
+      '-.__   __.-'
+
+    """
+
+    bender.introduce()
 
 
-
-## Chapter I
-
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula
-eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient
-montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque
-eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo,
-fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut,
-imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.
-
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula
-eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient
-montes, nascetur ridiculus mus.
-
-```coffeescript
-
-    chapter1 = ->
-
-
-```
+[[01]]: http://en.wikipedia.org/wiki/Know_thyself#cite_note-20
+[[02]]: http://en.wikipedia.org/wiki/Know_thyself#cite_note-21
+[manifesto]: http://www.phrack.org/issues.html?issue=7&id=3&mode=txt
