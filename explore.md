@@ -1,3 +1,6 @@
+#### AsciiDoc:
+#### DocBook:
+
 # Chapter I
 
 `Coffeebook`, it tells the //whole// story from begin to end. We must already
@@ -59,12 +62,22 @@ it is. My Sublime won't tho nor will the compiler.
 
 ```
 
+
+
+
+But first, back to the fences. Check out [request] [01] and the [pull] [02].
+
+
+[01]: https://github.com/asciidoctor/asciidoctor/issues/118
+[02]: https://github.com/asciidoctor/asciidoctor/pull/181
+
+
 It is here where I experimented somewhat with a compatible notation for GFM and
 Markdown and literate CoffeeScript and, although not bound by convention, will
-try to honor these. Another option is to replace the ASCII text it is now,
-by triggering anything after ```coffeescript` and make it CS. But since we
-would be able to moderate ourself (copy the file is probably best) we can play
-around as much as we like.
+try to honor these. Another option is to replace the ASCII text it is now, by
+triggering anything after ` three backticks coffeescript` and make it CS. But
+since we would be able to moderate ourself (copy the file is probably best) we
+can play around as much as we like.
 
 I could have also used a literate method to declare a ___new macro___ in any
 fashion inline _|using keywords|_ we could choose between a few _#{for x in y:}_
@@ -73,7 +86,9 @@ perhaps as [eco] [] does.
 
 Need have a nice way of compatible parsing. This could be the coffee compiler to
 work on special Markdown tags which would in fact be commands/macros. A
-convential way of breaking out of comments
+convential way of breaking out of comments.
+
+
 
 
     config =
