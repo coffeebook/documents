@@ -1,5 +1,18 @@
 # The book
 
+This would serve as a comprehensive piece of literature on everything I know
+about CoffeeScript, Markdown, Node.js and it's kick-ass libraries. It is far
+from finished, please be patient.
+
+I hope this will end up a more coherent, community driven, writing and coding
+experiment. This book shall be your initiation. It will be a test of your skills
+to contribute to the greater good. This will be your programmer bible for next-
+gen web technology.
+
+It shall mention problems I encounter or for which I am not smart enough. I rest
+in the knowledge that others will be and may correct my honest mistakes in a
+manner which suits this problem best.
+
 There are two parts of the ancient temple of Luxor; the outer temple where the
 beginning initiates are allowed to come, and the inner temple where one can
 enter only after proven worthy and ready to acquire the higher knowledge and
@@ -103,9 +116,11 @@ book which references another book.
 Let us
 
     try # and
+
       write proof()
 
     catch ourBooBoos
+
 
 Humans, such as yourself, I find to be flawed. You don't believe me? Check that
 ancient [manifesto] and see how it still applies. You have irrational emotions,
@@ -113,28 +128,18 @@ bad temper, lazy and rude. Not like myself
 
 Let me introduce:
 
-    bender =
+    myname = -> """
 
-      introduce = -> write """
-            _
-           ( )
-            H
-            H
-           _H_
-        .-'-.-'-.
-       /         \
-      |           |
-      |   .-------'._
-      |  / /  '.' '. \
-      |  \ \ @   @ / /
-      |   '---------'
-      |    _______|
-      |  .'-+-+-+|
-      |  '.-+-+-+|         Silver Saks
-      |    """""" |
-      '-.__   __.-'
+          8XVmIX0Frl41wHw3iQtbb3gMyzGiSo0doXftajgGlVMVDuMhpntTErdwNnExuI9Y+DJwnt
+          fheoPQ6t9CydE6tOYj1HfOUWqLttk2Aon3hpEaqINXdzAVKgg2hzrsSg1QXPxi+TGF4f+o
+          Zo9s8zxTpY56AZNlIyUdvlgKC13P+wmVsJR/77+4jV7Z9RaeqZTWW8DBD7Y8JuMIn6t7G/
+          P8wcjK9plKsZeL45UQ4lI4+5s5V3Q+zJv7HSAzbS1FPQOrrnAI29r+7EEVw8LFD8rQ+ofX
+          tEPSNHCQKer0AqohNxYXEooFUeLEz9Dfb2BRLIjiiLrPEsC3fBe2T565LlnvO9BlTlBquT
+          36QeVbJm4gHGSsp823rkqZwuG+NKvJRQamFRIHqsoZ2rS1J+nml2yw4voWNQ4CDSYglEoc
+          43EGwE6GHGzaWRnJS8XTVQ9mWc/dHbZ6FS/CvsYRs4DHPsjudo6JR0jopf3PDwRUYtp6Tb
+          w=
 
-    """
+      """
 
     bender.introduce()
 
