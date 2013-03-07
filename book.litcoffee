@@ -49,8 +49,6 @@ We shall explore our knowledge of `self` at a later stage. For now just know we
 may find many wisdom in ancient scriptures. And many ancient scriptures are
 exposed to those who know how to communicate.
 
-
-
 It is now up to YOU to do something with it.
 
 ## Genesis
